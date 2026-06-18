@@ -1,0 +1,12 @@
+# 指导书要求排除的目录
+data/
+checkpoints/
+logs/
+__pycache__/
+.vscode/
+# 大文件
+results/*/best.pth
+*.pth
+*.zip
+.ipynb_checkpoints/
+.DS_Store
